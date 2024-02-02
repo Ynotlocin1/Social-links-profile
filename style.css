@@ -84,11 +84,16 @@ h2 {
 }
 
 .links a:hover {
-    color: var(--green);
+    background-color: var(--green);
+    color: black;
+
+    transition:  ease-in-out 0.4s;
 }
 
 .links a:active {
-    opacity: 0.5;
+
+    font-size: 1.2rem ;
+    transition: ease-in-out 0.1s;
 }
 
 
